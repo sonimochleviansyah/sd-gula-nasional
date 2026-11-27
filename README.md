@@ -37,15 +37,15 @@ Indonesia masih mengimpor sebagian besar kebutuhan gulanya. Proyek ini membangun
 
 Model dikalibrasi dengan data 2014-2024, divalidasi dengan MAPE dan uji kondisi ekstrem, lalu dijalankan sebagai aplikasi web interaktif.
 
-## ✨ Fitur Aplikasi
+##  Fitur Aplikasi
 
-- 🎛️ **Skenario kustom**: atur target produktivitas, rendemen, tambahan areal, tingkat realisasi, dan periode intervensi lewat slider.
-- 📊 **Perbandingan 6 skenario**: baseline, produktivitas, rendemen, perluasan, kombinasi, dan roadmap Perpres 40/2023.
-- ✅ **Validasi model**: MAPE terhadap data aktual dan uji kondisi ekstrem.
-- 🌪️ **Analisis sensitivitas**: diagram tornado untuk melihat parameter paling berpengaruh.
-- 📚 **Metode dan data**: struktur model dan tabel data tersedia langsung di aplikasi.
+-  **Skenario kustom**: atur target produktivitas, rendemen, tambahan areal, tingkat realisasi, dan periode intervensi lewat slider.
+-  **Perbandingan 6 skenario**: baseline, produktivitas, rendemen, perluasan, kombinasi, dan roadmap Perpres 40/2023.
+-  **Validasi model**: MAPE terhadap data aktual dan uji kondisi ekstrem.
+-  **Analisis sensitivitas**: diagram tornado untuk melihat parameter paling berpengaruh.
+-  **Metode dan data**: struktur model dan tabel data tersedia langsung di aplikasi.
 
-## 🧠 Struktur Model
+##  Struktur Model
 
 ```mermaid
 flowchart LR
@@ -81,7 +81,7 @@ Variabel bantu:
 
 Simulasi memakai metode Euler dengan langkah 0,25 tahun.
 
-## 📈 Hasil
+##  Hasil
 
 ### Validasi (data 2014-2024)
 
@@ -108,7 +108,7 @@ Pembanding eksternal: Outlook Tebu 2025 memperkirakan produksi 2025 sebesar 2,59
 
 > Model tidak memasukkan ekspor, sehingga SSR di atas 100% berarti surplus teoretis, bukan prediksi realistis.
 
-## 🚀 Cara Menjalankan
+##  Cara Menjalankan
 
 ### Lokal (VS Code)
 
@@ -125,7 +125,7 @@ Aplikasi terbuka di `http://localhost:8501`.
 
 Buka `SD_Gula_Nasional_UTS.ipynb` di Google Colab atau VS Code (ekstensi Jupyter), lalu jalankan semua cell dari atas ke bawah.
 
-## 📁 Struktur Repositori
+##  Struktur Repositori
 
 ```
 .
@@ -137,12 +137,12 @@ Buka `SD_Gula_Nasional_UTS.ipynb` di Google Colab atau VS Code (ekstensi Jupyter
 └── README.md
 ```
 
-## 🗂️ Sumber Data
+##  Sumber Data
 
 - Pusat Data dan Sistem Informasi Pertanian, _Outlook Tebu 2025_, Kementerian Pertanian (luas panen dan produksi gula hablur, data Ditjen Perkebunan).
 - Badan Pusat Statistik (impor gula dan jumlah penduduk).
 
-## ⚠️ Asumsi dan Keterbatasan
+##  Asumsi dan Keterbatasan
 
 - Alih fungsi lahan (2%/tahun), produktivitas tebu awal (70 ton/ha), dan stok penyangga (sekitar 1,8 bulan konsumsi) adalah **asumsi**, bukan hasil kalibrasi.
 - Pertumbuhan neto areal baseline 2,07%/tahun mengikuti rata-rata 2016-2025 pada Outlook Tebu 2025.
@@ -150,7 +150,7 @@ Buka `SD_Gula_Nasional_UTS.ipynb` di Google Colab atau VS Code (ekstensi Jupyter
 - Kalibrasi memakai seluruh data 2014-2024, sehingga MAPE bersifat _in-sample_.
 - Beberapa nilai impor dan jumlah penduduk perlu diverifikasi ulang terhadap tabel resmi BPS (lihat kolom `catatan` pada `data_gula.csv`).
 
-## 📚 Referensi
+##  Referensi
 
 1. Wirdianto, E., Ananda, D., Jonrinaldi, & Wisnel. (2025). Proposed sugar self-sufficiency policy in Indonesia using system dynamics. _E3S Web of Conferences, 677_, 10002. https://doi.org/10.1051/e3sconf/202567710002
 2. Wanggai, C. M., & Moeis, A. O. (2026). Policy scenarios in the system dynamics model of Indonesia's sugar supply and demand for the national food self-sufficiency strategy. _Proceedings of the 3rd GCC International Conference on IEOM_. https://doi.org/10.46254/GC03.20250485
